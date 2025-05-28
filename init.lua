@@ -1,29 +1,37 @@
-
--- Đợi game load
-repeat wait() until game:IsLoaded()
-
-local Players = game:GetService("Players")
-local key = getgenv().Key or ""
-local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+-- Android ID cố định (nếu bạn cần cho việc tạo HWID)
+local android_id = "d111cbeff7e3d2fd"
 local scriptName = getgenv().NScript or "Unknown"
+local function simpleHash(str)
+    local result = 0
+    for i = 1, #str do
+        result = result + string.byte(str, i) * i
+    end
+    return tostring(result)
+end
+
+local hwid = simpleHash(android_id)
+
+-- Nhận Key từ người dùng
+local inputKey = getgenv().Key or ""
 
 -- Tải danh sách key từ GitHub
-local success, response = pcall(function()
+local success, validKeys = pcall(function()
     return game:HttpGet("https://raw.githubusercontent.com/duylee10037/keysystem-to-check/main/key.txt")
 end)
 
+-- Nếu tải key thất bại ➜ ngừng
 if not success then
-    Players.LocalPlayer:Kick("⚠ Không thể kiểm tra key. Vui lòng thử lại sau.")
+    warn("[KEY] ❌ Không tải được keys.txt.")
     return
 end
 
--- Kiểm tra định dạng: hwid:key
-local fullKey = hwid .. ":" .. key
-if not string.find(response, fullKey) then
-    Players.LocalPlayer:Kick("🚫 Key không hợp lệ hoặc không khớp với thiết bị của bạn.")
+-- Kiểm tra key
+if not string.find(validKeys, inputKey) then
+    game.Players.LocalPlayer:Kick("Bạn đã bị kick khỏi trò chơi: Sai key. (Error Code: 267)")
     return
 end
 
+-- Nếu key đúng ➜ tiếp tục
 -- Nếu hợp lệ, chọn script tương ứng theo NScript
 if scriptName == "MaruHub" then
     getgenv().Key = "MARU-0HE3E-4F7P-7X992-407P-5E5YM"
