@@ -7,7 +7,7 @@ local inputKey = tostring(getgenv().Key or "")
 
 --// 🗝️ Tải danh sách key từ GitHub
 local success, validKeys = pcall(function()
-    return game:HttpGet("https://raw.githubusercontent.com/duylee10037/keysystem-to-check/main/key.txt")
+    return game:HttpGet("https://raw.githubusercontent.com/duylee10037/keysystem-to-check/refs/heads/main/key.txt")
 end)
 
 --// Nếu không tải được ➜ dừng
