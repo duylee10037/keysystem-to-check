@@ -1,41 +1,49 @@
 --// ⚙️ Cấu hình
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
+local HttpService = game:GetService("HttpService")
 
 local scriptName = tostring(getgenv().NScript or "Unknown")
 local inputKey = tostring(getgenv().Key or "")
 
---// 🗝️ Tải danh sách key từ GitHub
-local success, validKeys = pcall(function()
-    return game:HttpGet("https://raw.githubusercontent.com/duylee10037/keysystem-to-check/refs/heads/main/key.txt")
+--// 🌐 Địa chỉ API (thay IP của bạn vào đây)
+local API_URL = "http://160.30.192.188:8080/verify?key=" .. inputKey
+
+--// 🗝️ Gửi yêu cầu xác minh key qua API
+local success, response = pcall(function()
+    return game:HttpGet(API_URL)
 end)
 
---// Nếu không tải được ➜ dừng
-if not success or not validKeys or validKeys == "" then
-    warn("[KEY] ❌ Không thể tải danh sách key.")
-    LocalPlayer:Kick("Không thể kết nối tới server key, vui lòng thử lại.")
+--// Kiểm tra kết nối
+if not success or not response or response == "" then
+    warn("[KEY] ❌ Không thể kết nối đến API key.")
+    LocalPlayer:Kick("Không thể kết nối tới server xác minh key. Vui lòng thử lại.")
     return
 end
 
---// 🔍 Tìm key trong danh sách (so sánh phần sau dấu :)
-local isValid = false
-for line in string.gmatch(validKeys, "[^\r\n]+") do
-    local discordID, keyValue = string.match(line, "^(.-):(.-)$")
-    if keyValue and keyValue == inputKey then
-        isValid = true
-        break
-    end
-end
+--// Giải mã JSON trả về
+local data
+local decodeSuccess, decodeErr = pcall(function()
+    data = HttpService:JSONDecode(response)
+end)
 
---// Nếu key không tồn tại
-if not isValid then
-    LocalPlayer:Kick("❌ Sai key hoặc key không tồn tại trong danh sách.")
+if not decodeSuccess or not data then
+    warn("[KEY] ❌ Lỗi khi đọc phản hồi từ API:", decodeErr)
+    LocalPlayer:Kick("Server key trả về dữ liệu lỗi. Thử lại sau.")
     return
 end
 
---// ✅ Key đúng ➜ chạy script tương ứng
-print("[KEY] ✅ Key hợp lệ! Đang tải script: " .. scriptName)
+--// 🔍 Kiểm tra phản hồi từ API
+if not data.success then
+    LocalPlayer:Kick("❌ " .. (data.message or "Sai key hoặc key không tồn tại."))
+    return
+end
 
+--// ✅ Key hợp lệ
+print("[KEY] ✅ Key hợp lệ! Discord ID:", data.discord_id or "Không rõ")
+print("[KEY] 🔄 Đang tải script:", scriptName)
+
+--// 🚀 Chạy script tương ứng
 if scriptName == "MaruHub" then
     getgenv().NScript = "MaruHub"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
