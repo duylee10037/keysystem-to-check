@@ -1,1 +1,326 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local I={"\108\121\050\118\103\115\078\061","\074\083\097\087\104\083\074\118\078\110\052\111\054\083\074\107\054\083\074\106\078\066\061\061","\117\082\111\107\070\071\061\061";"\112\115\052\067\089\119\097\050\047\110\074\097\117\082\111\111\104\097\111\098","\081\107\074\043\053\120\055\074\049\082\113\112\102\110\057\113\070\121\088\061";"\047\102\087\067\085\110\111\101\108\085\108\078\081\119\056\109\049\106\101\061","\073\090\075\118\050\106\121\112\116\113\066\043\110\055\088\083\106\071\061\061","\086\102\116\083\071\118\108\099\049\075\061\061","\117\106\076\079\051\105\121\072\105\075\061\061","\117\111\088\048\108\081\112\105\049\114\055\112\070\090\088\115\102\066\061\061";"\054\082\097\118\103\075\061\061","\104\119\074\087\103\115\108\111";"\103\085\097\080\070\088\061\061","\054\083\122\043\054\085\113\099\108\121\078\061";"\049\082\100\100\104\075\061\061","\052\114\055\077\112\098\100\082\108\074\108\077\085\121\050\082","\076\065\084\076\085\054\076\090\074\104\088\114\099\088\061\061","\108\082\074\080\108\082\074\043\054\075\061\061","\067\117\110\119\100\087\074\050\119\053\082\122\099\054\112\055\110\077\101\052\088\051\106\055\117\067\120\067\080\105\113\048\069\108\103\050\118\107\112\085\118\118\084\048\054\072\099\054\105\083\077\084\082\068\083\081\113\069\111\067\089\057\120\082\081\051\080\057\048\117\105\048\089\120\074\111\099\077\083\121\057\049\082\118\115\056\081\056\055\082\051\115\080\082\086\108\074\121\086\076\068\082\083\066\120\110\101\078\070\110\076\071\071\112\098\097\106\075\061\061","\053\099\075\111\108\105\067\055\053\075\061\061";"\049\111\055\099\103\110\113\097\081\085\067\061","\104\120\050\055\103\114\066\061";"\049\114\111\080\108\066\061\061";"\117\121\075\048\049\106\052\089\070\120\108\080\081\081\111\102","\108\115\112\113\049\075\061\061","\116\068\121\047\103\085\057\087\086\085\115\079\100\119\067\061";"\103\115\050\084\070\120\074\114\108\110\080\048\103\113\054\087\112\081\075\061";"\102\082\048\053\102\103\077\056\070\066\061\061","\108\082\113\100\054\083\112\067","\053\075\061\061","\104\082\074\080\103\085\074\080\049\121\052\100\049\119\048\111";"\104\115\052\118\070\085\056\114","\057\120\071\048\083\051\053\081\103\104\076\075\090\102\106\053\119\100\043\107\078\056\118\085\088\104\079\083\104\078\119\073\054\102\103\122\114\099\084\104\120\115\108\121\071\049\043\099\100\104\077\087\113\113\108\104\051\068\103\088\075\100\077\078\090\069\083\055\065\097\083\081\071\111\053\088\083\056\097\070","\103\083\122\100\108\120\112\080\104\119\111\043\108\071\061\061","\049\119\057\113\049\113\108\050\103\080\055\067\049\081\074\069";"\121\113\122\101\108\085\057\061","\083\107\088\115\057\082\074\077\050\066\061\061";"\104\083\112\100\103\083\071\061","\049\082\122\043\049\082\097\080","\069\071\116\102\078\070\112\088\090\097\109\099\102\075\097\116\087\080\099\079\077\053\110\111\088\121\106\098\121\054\099\089\110\090\114\115\110\087\088\105\115\073\048\074\101\084\072\114\054\051\073\085\053\081\075\108\085\076\089\111\073\085\049\067\120\071\061\061";"\074\119\097\083\102\120\067\115\047\111\050\066\052\106\052\117\102\071\061\061","\084\074\100\111\077\049\087\069\108\088\054\050\074\052\051\106\089\111\118\078\087\107\048\052\117\098\070\101\117\065\080\048\079\050\097\087\079\106\108\105\103\083\097\097\106\069\051\118\047\119\114\087\087\071\077\099\056\075\071\100\110\057\110\049\083\104\115\083\070\070\110\105\120\054\087\051\048\053\114\109\111\118\065\110\070\103\121\068\078\100\065\113\115\103\090\107\100\080\097\049\081\080\055\088\087\110\112\097\081\101\070\054\070\089\090\065\119\066\061\061";"\121\113\122\087\108\121\052\100\054\083\097\099\103\083\102\061";"\110\068\116\082\052\112\068\120\066\088\061\061","\048\122\050\118\089\065\099\048\054\109\116\073\113\054\066\111\084\081\076\066\067\068\043\101\085\104\122\107\066\081\068\073\116\049\103\065\102\089\072\067\103\088\053\082\074\117\098\101\071\088\061\061","\066\080\074\068\108\082\097\043\070\114\067\080\108\081\097\073\052\106\080\061","\075\089\107\117\051\085\054\099\106\072\079\087\052\053\115\112\122\111\104\072\114\120\098\074\073\105\116\076\097\117\114\082\065\105\098\047\122\120\121\089\101\056\076\050\056\065\054\113\051\102\049\061";"\112\114\097\066\112\081\075\071\066\090\097\043\052\119\111\106";"\072\082\108\078\119\084\048\085\114\116\073\047";"\121\113\122\055\103\119\052\111\047\088\061\061";"\074\106\052\069\047\097\100\068\102\098\074\100\049\085\097\050\089\111\075\061","\057\098\080\057\056\053\108\070\076\071\061\061";"\052\098\050\078\112\082\048\083\104\107\054\111\047\111\088\057\070\106\104\061";"\072\088\061\061","\116\090\104\048";"\088\053\099\071\103\114\109\076\048\075\061\061";"\052\082\074\080\102\082\074\118\054\119\111\107\108\066\061\061";"\066\100\075\086\090\121\097\066\087\098\117\120\106\103\057\061";"\054\083\122\090\054\120\050\055\103\119\104\061";"\074\090\100\055\052\082\056\068","\121\113\122\114\049\071\061\061";"\054\083\097\099\103\083\102\061";"\103\098\110\061";"\108\119\074\112\054\113\097\077\103\085\111\043\047\085\048\119";"\069\104\075\069\050\050\110\084\043\122\051\083\089\115\110\069\047\054\049\120\116\086\099\079\086\102\051\068\066\098\076\047\087\069\050\119\071\112\121\097\052\115\113\116\088\069\117\115\102\100\072\074\084\119\099\081\090\053\075\081\086\076\085\117\089\120\065\115\100\108\077\076\113\111\082\121";"\077\069\078\119\097\048\071\061";"\108\082\097\087\108\066\061\061","\049\115\111\097\054\121\055\117\049\082\071\057\049\113\097\115","\102\090\054\081\102\110\112\074\053\102\048\112\085\121\052\114\047\110\049\061";"\088\056\074\101\072\099\077\111\122\085\089\090\114\107\120\071\048\050\083\090\085\106\108\116\076\043\110\116\098\099\090\100\052\120\066\114\047\070\072\057\071\109\067\072\109\043\122\119\107\112\048\117\068\067\116\118\057\066\067\113\100\082\066\098\075\104\080\061";"\103\083\074\043","\103\098\078\061";"\054\085\056\071\049\085\112\072","\052\085\071\113\049\106\075\061","\082\086\065\101\085\071\061\061","\067\073\080\113\118\075\048\075\103\102\086\110\084\120\074\052\050\099\052\097\087\098\056\103\098\054\051\076\068\116\122\049\076\056\115\121\088\098\116\084\065\079\055\102\082\072\116\085\089\116\071\061";"\111\043\070\116\090\051\051\070\068\082\077\056\055\075\116\100\066\077\085\103\085\077\077\115\043\089\099\069\104\086\078\083\043\108\102\056\104\048\106\081\075\050\070\074\055\121\117\056\087\086\097\071\087\049\121\080\112\118\098\071\118\106\076\101\100\111\122\114\084\113\105\079\082\119\070\067\086\089\105\067\070\115\098\047\098\068\112\109\074\114\056\111\043\104\070\099\049\098\084\056","\057\100\078\086\049\070\055\081\057\071\061\061";"\117\067\102\110\114\082\076\049\066\121\075\074\098\102\120\051\069\068\104\119\110\067\090\048\105\106\088\107\043\106\055\116\120\071\043\048\071\099\102\120","\104\119\097\043\108\083\122\087";"\108\111\111\069\085\120\108\057\103\082\067\115\047\110\106\090\047\088\061\061";"\122\109\110\113\072\056\105\085\076\115\077\114\089\075\061\061";"";"\117\120\052\080\104\110\054\111\054\088\061\061","\108\119\048\077\103\115\078\061";"\117\111\112\084\081\106\052\111\049\082\122\106\108\066\061\061","\081\050\068\077\119\119\114\107\049\071\061\061"}local function V(V)return I[V-(1031591-1000434)]end for V,D in ipairs({{-224027-(-224028),278641-278554};{-789915-(-789916);-94898+94955},{-638548+638606;-189083-(-189170)}})do while D[-971040+971041]<D[-156629+156631]do I[D[-956528-(-956529)]],I[D[-647043+647045]],D[-168406+168407],D[859448+-859446]=I[D[-336030-(-336032)]],I[D[-986608+986609]],D[-349303+349304]+(-764312+764313),D[-972213+972215]-(862856+-862855)end end do local V=math.floor local D=string.char local y=I local q=type local X=string.len local P=table.insert local h=string.sub local a=table.concat local w={["\051"]=611292-611232;["\055"]=-427558-(-427599);C=131562-131522;["\057"]=893954-893898;I=874882-874871,d=-615117+615150,D=1037204-1037162;e=828000+-827956;f=398752-398732,B=-477808+477824;["\054"]=631814+-631785,M=-599756-(-599803);F=-225898-(-225924);Y=-660218+660230;b=-419166+419169;["\049"]=636062-636038,o=465154+-465117,["\053"]=-120974+120988,c=-518228+518262;q=632330+-632277,t=-412956+412966;G=363591-363543;a=743299+-743294;y=515015+-514992,l=-498834+498859;["\048"]=-278650+278699;v=976214+-976164;N=-830894+830902,["\056"]=-976128+976185,x=1001757+-1001750,m=-2145+2203,O=667616+-667554,p=193075-193062;Q=-182905-(-182924),E=920264-920263;J=-418619+418640,H=42121+-42078,z=-770842+770903;i=53985-53983;["\047"]=-777188+777218;R=805126-805072,K=133450-133418,["\043"]=893120-893074,j=-476059-(-476095);s=-123791-(-123846);u=730758-730740,w=563815+-563777,W=8154-8109,T=-603682-(-603697),L=-125236-(-125295);["\050"]=203023+-203014,g=18515+-18488,X=975960+-975960;A=-811775-(-811806),k=873966+-873931,U=-259822-(-259844),h=850646-850618,n=-444104+444108,S=432352-432346;["\052"]=-359570-(-359587),V=235113+-235050,r=692722+-692683,Z=905704-905653,P=-904455-(-904507)}for I=-387416-(-387417),#y,-757686-(-757687)do local m=y[I]if q(m)=="\115\116\114\105\110\103"then local q=X(m)local p={}local R=-74694-(-74695)local Z=-919133+919133 local i=-603606-(-603606)while R<=q do local I=h(m,R,R)local y=w[I]if y then Z=Z+y*(356016-355952)^((-437154+437157)-i)i=i+(986390+-986389)if i==-99917-(-99921)then i=988780+-988780 local I=V(Z/(520236-454700))local y=V((Z%(757407+-691871))/(-578164+578420))local q=Z%(-187127-(-187383))P(p,D(I,y,q))Z=34194+-34194 end elseif I=="\061"then P(p,D(V(Z/(230886+-165350))))if R>=q or h(m,R+(-165067+165068),R+(-982641+982642))~="\061"then P(p,D(V((Z%(-940219+1005755))/(-733568+733824))))end break end R=R+(-801891+801892)end y[I]=a(p)end end end return(function(I,y,q,X,P,h,a,i,v,w,p,m,n,Y,D,L,z,Z,r,g,R)p,i,Z,w,R,z,r,n,g,m,v,L,D,Y=function()R=(-454197+454198)+R m[R]=975731+-975730 return R end,function(I)local V,D=330930-330929,I[1014824+-1014823]while D do m[D],V=m[D]-(944087-944086),V+(-423787+423788)if m[D]==898797+-898797 then m[D],w[D]=nil,nil end D=I[V]end end,function(I)for V=-169639+169640,#I,531279-531278 do m[I[V]]=(1008313-1008312)+m[I[V]]end if q then local D=q(true)local y=P(D)y[V(-457778+488955)],y[V(131295+-100107)],y[V(627181-596018)]=I,i,function()return-523949+718301 end return D else return X({},{[V(-536863+568051)]=i,[V(709842+-678665)]=I,[V(-570627+601790)]=function()return 968683-774331 end})end end,{},-652175+652175,function(I,V)local y=Z(V)local q=function(q,X,P,h,a)return D(I,{q;X;P;h,a},V,y)end return q end,function(I,V)local y=Z(V)local q=function(q,X)return D(I,{q;X},V,y)end return q end,function(I,V)local y=Z(V)local q=function(q)return D(I,{q},V,y)end return q end,function(I,V)local y=Z(V)local q=function()return D(I,{},V,y)end return q end,{},function(I,V)local y=Z(V)local q=function(...)return D(I,{...},V,y)end return q end,function(I)m[I]=m[I]-(325730-325729)if m[I]==215198+-215198 then m[I],w[I]=nil,nil end end,function(D,q,X,P)local S,v,M,f,H,O,K,U,a,d,u,o,m,l,A,Z,x,k,c,W,F,i,B,e,s,G,C,b,R,Q,N,j,J,T while D do if D<-906699+10873598 then if D<3857061-(-1040918)then if D<239560+2090701 then if D<1863601-76564 then if D<798834+11774 then if D<-563241+1116474 then if D<-913170+1143440 then D=11929914-(-759070)else m=V(784963-753748)D=I[m]Z=97736-97736 R=w[X[-130604-(-130612)]]m=D(R,Z)D=595217+1202855 end else if D<255938+493138 then a=V(874545+-843351)D=I[a]m=w[X[-891101-(-891102)]]R=V(411540-380329)R=D[R]a={R(D,m)}a={y(a)}D=I[V(713215-682020)]else Q=276378+34418606524161 F=5384931115760-588069 U=-948010+23988369597132 O=V(479903-448671)G=I[O]O=G()T=V(-545157-(-576362))f=R(T,F)G=Z[f]F=V(924062+-892841)D=124732+12963930 T=R(F,Q)f=Z[T]O[G]=f O=V(61310-30078)G=I[O]O=G()F=-947401+18877507098399 T=V(-472863+504056)f=R(T,F)G=Z[f]f=true O[G]=f O=V(1046039+-1014878)T=V(-569110-(-600304))G=I[O]f=I[T]d=V(-636185-(-667418))Q=R(d,U)F=Z[Q]Q=V(-76602+107813)Q=f[Q]T={Q(f,F)}O=G(y(T))G=O()end end else if D<2670714-1008424 then if D<1914508-1042042 then R=w[X[815035+-815032]]Z=-1015227-(-1015406)m=R*Z R=157040+-156783 D=16972873-1019661 a=m%R w[X[127614-127611]]=a else D=w[X[-479155-(-479162)]]D=D and-290292-(-791667)or-868590+2666662 end else O=-584698+584704 D=w[e]s=826622-826621 j=D(s,O)O=V(869313-838114)D=V(993085+-961886)I[D]=j s=I[O]O=540899+-540897 D=s>O D=D and-247921+15117769 or 16658503-(-20225)end end else if D<405252+1675722 then if D<1290096-(-630767)then if D<2516549-657193 then D={}m=D Z=w[X[-497038-(-497047)]]R=848535+-848534 i=Z Z=991376-991375 v=Z D=7997542-707470 Z=-332291+332291 B=v<Z Z=R-v else Z=1017921+-1017724 R=w[X[997619+-997617]]m=R*Z R=18603437469219-(-635826)a=m+R m=-161494+35184372250326 D=a%m w[X[-771133-(-771135)]]=D D=1876878-1027824 R=181869-181868 m=w[X[846843-846840]]a=m~=R end else D=b D=G and 15601807-(-795654)or 14856791-(-1039960)end else if D<-364107+2664259 then if D<2100799-(-191842)then l=V(910554+-879354)k=I[l]a=k D=5178511-(-51736)else H=#b O=-328958+328958 J=H==O D=J and 48458+12413352 or-179292+8417836 end else f=w[e]D=879377+13737519 d=13083669627434-(-1037730)Q=V(-253441-(-284651))F=R(Q,d)T=Z[F]O=f==T J=O end end end else if D<4897439-770060 then if D<2796664-(-279721)then if D<3157239-190571 then if D<3161299-645640 then D=true w[X[379575+-379574]]=D a={}D=I[V(360234+-329061)]else u=w[R]o=u D=u and-55854+12900067 or-791359+14867039 end else a={}D=I[V(232505-201314)]end else if D<-594869+4301125 then if D<-1016791+4351473 then D=F a={}D=I[V(338540-307365)]G=V(-139988-(-171205))G=i[G]O=f..T G=G(i,O)else e=853377-853122 D={}w[X[-483424-(-483426)]]=D a=w[X[-800551+800554]]v=872834+35184371215998 l=-329449+329450 i=a a=R%v w[X[-90765+90769]]=a x=V(317316-286157)B=R%e e=-939348+939350 v=B+e K=l w[X[-425578+425583]]=v e=I[x]x=V(-54279+85477)B=e[x]e=B(m)l=321689-321689 B=V(180797+-149587)x=259222+-259221 k=e Z[R]=B B=1036199+-1036080 G=K<l D=63733+4129867 l=x-K end else R=q[-220854-(-220856)]D=w[X[-910980-(-910981)]]m=q[1006174+-1006173]Z=D D=Z[R]D=D and 745390-655245 or 3693375-95490 end end else if D<941845+3571126 then if D<-888894+5258244 then if D<3718101-(-526239)then b=not G l=l+K x=l<=k x=b and x b=l>=k b=G and b x=b or x b=757668+15907812 D=x and b x=647214+7681475 D=D or x else b=V(-233503+264692)D=13270434-(-20987)G=I[b]b=V(-200117+231317)K=G[b]k=K end else D=w[X[-791077-(-791078)]]m=w[X[724193-724191]]a=V(1010987-979774)a=D[a]a=a(D,m)D=I[V(-213425+244649)]w[X[808558-808555]]=a a={}end else if D<575204+4140214 then if D<-744266+5412545 then F=V(-6946+38113)Q=25196758287779-(-731186)O=V(-909897-(-941122))G=I[O]a={}T=R(F,Q)f=Z[T]O=G(f,H)T=V(-329474-(-360666))F=5460969029879-816905 f=R(T,F)D=I[V(998212+-967034)]G=V(-38551-(-69768))O=Z[f]G=i[G]G=G(i,O)else D=-151251+13994649 end else a=V(878695+-847467)D=I[a]i=V(-610894+642080)k=z(298223+10963020,{})x=V(713117-681952)m=w[X[-110103-(-110107)]]Z=I[i]e=I[x]x={e(k)}e=1017851-1017849 B={y(x)}v=B[e]i=Z(v)Z=V(478158+-446924)R=m(i,Z)m={R()}a=D(y(m))R=w[X[-233594-(-233599)]]m=a a=R D=R and 8074530-(-693047)or 5925940-(-429262)end end end end else if D<8084912-479457 then if D<-20190+6080578 then if D<-40265+5548109 then if D<291485+4962486 then if D<5502694-343719 then j=K==G D=13676447-(-965839)W=j else k=p()w[k]=a D=w[e]l=493510+-493507 K=-580293-(-580358)J=Y(160430+12304978,{})a=D(l,K)D=-575801+575801 l=p()b=V(-92549+123714)w[l]=a K=D D=-223596-(-223596)a=I[b]b={a(J)}G=D D={y(b)}b=D a=-699203+699205 D=b[a]J=D a=V(645552-614324)D=I[a]s=V(363242+-332056)H=w[Z]j=I[s]s=j(J)j=V(530675-499441)W=H(s,j)H={W()}a=D(y(H))H=p()w[H]=a W=w[l]a=-632493-(-632494)j=W W=-1028841-(-1028842)s=W W=-648554-(-648554)O=s<W D=7204605-(-401270)W=a-s end else if D<5104557-(-237866)then D=958183+14433345 S=-1026384-(-1026386)M=U[S]S=w[d]C=M==S o=C else S=1046244+-1046243 u=D M=U[S]S=false C=M==S D=C and 5813518-505416 or-339531+15731059 o=C end end else if D<844366+5065712 then if D<-255143+5908785 then F=V(-282670-(-313830))Q=731192+15684675302479 T=R(F,Q)f=Z[T]Q=V(573796+-542610)F=I[Q]C=-991655+11381614474842 G=V(183157+-151940)U=V(823456-792275)G=i[G]D=972544+12116118 Q=F(x)d=R(U,C)F=Z[d]T=Q..F O=f..T G=G(i,O)else D=13939165-(-637890)end else v=342778-342776 R=w[X[309059-309058]]i=1001652-1001651 Z=R(i,v)R=815339-815338 m=Z==R a=m D=m and 421902+13674122 or 155599+10871960 end end else if D<-326768+7113486 then if D<7010866-450804 then if D<7055287-671255 then m=nil D=-648180+1530565 w[X[482691-482686]]=a else O=V(-459019+490255)F=V(419938-388766)G=I[O]S=15198945057177-(-819724)M=V(99736+-68505)Q=73136+18879864505511 T=R(F,Q)F=D f=Z[T]d=w[b]C=R(M,S)U=Z[C]Q=d[U]D=Q and 231388+12230225 or 6107875-(-1009465)T=Q end else D=O D=G and 3706259-(-932079)or-46405+14599905 end else if D<6947703-(-296877)then if D<218520+6939014 then U=V(101962+-70753)D=11484285-(-977328)C=860132+7632655740414 d=R(U,C)Q=Z[d]T=Q else D=true D=D and 717991+9660328 or 10471642-806342 end else Z=Z+v e=not B R=Z<=i R=e and R e=Z>=i e=B and e R=e or R e=261366+7561334 D=R and e R=11208446-(-657016)D=D or R end end end else if D<882695+7423152 then if D<328840+7875400 then if D<-424090+8478204 then if D<7769874-17503 then W=W+s f=not O a=W<=j a=f and a f=W>=j f=O and f a=f or a f=10770391-290332 D=a and f a=17002681-272674 D=D or a else x=-889685-(-889685)D=w[X[-385753-(-385754)]]R=Z k=-776894-(-777149)e=D(x,k)m[R]=e R=nil D=6842464-(-447608)end else B=w[v]D=-948967+9352028 a=B end else if D<1017594+7254976 then if D<-749763+8997620 then O=#b H=-874021-(-874022)J=i(H,O)H=B(b,J)T=-349288+349289 D=1918443-(-375823)O=w[G]J=nil c=H-T f=e(c)O[H]=f H=nil else T=V(670367+-639144)d=V(-13953+45122)O=V(-380168+411400)Q=28302305904921-(-748130)G=I[O]F=9982239047852-716420 O=G()f=R(T,F)F=V(754760+-723581)D=13302058-213396 G=Z[f]T=R(F,Q)f=Z[T]O[G]=f U=7138080456272-(-446123)T=V(-109469-(-140663))O=V(660374+-629213)G=I[O]f=I[T]Q=R(d,U)F=Z[Q]Q=V(-614060+645271)Q=f[Q]T={Q(f,F)}O=G(y(T))G=O()end else J=H D=333118+12505989 T=J b[J]=T J=nil end end else if D<23976+9022668 then if D<7950743-(-567096)then if D<7985601-(-375259)then B=nil D=-79056+12768040 i=nil e=nil else B=a e=V(560661+-529434)a=I[e]x=V(841741+-810552)e=V(-406632+437839)D=a[e]G=V(437831+-406642)e=p()w[e]=D a=I[x]x=V(52255+-21089)D=a[x]l=D K=I[G]x=D D=K and 4769437-407770 or 13720495-429074 k=K end else Z=w[X[-1044740-(-1044746)]]R=Z==m a=R D=-813827+7169029 end else if D<10218245-662962 then if D<9801533-347091 then m=w[X[-202154+202155]]a=#m m=703513-703513 D=a==m D=D and 1496330-(-402928)or 533215+8996656 else Z=V(-640126+671315)R=I[Z]Z=V(848869+-817643)D=I[V(583405+-552209)]m=R[Z]Z=w[X[-759683+759684]]R={m(Z)}a={y(R)}end else D=r(4260499-(-445838),{i})j={D()}D=I[V(711812-680574)]a={y(j)}end end end end end else if D<709973+12576680 then if D<11951394-(-153957)then if D<123310+11142158 then if D<-638962+11131845 then if D<423686+9995221 then if D<-113743+10214677 then a=V(901692-870477)D=I[a]m=V(-958531-(-989747))a=D(m)D=I[V(-34831+66011)]a={}else D=11082651-(-207069)end else if D<9991194-(-465222)then C=625793+3218372557145 U=V(-335279+366482)d=R(U,C)Q=Z[d]D=2951312-(-191972)T=Q else c=V(-951005-(-982232))T=983288-983188 C=V(45056-13870)N=114687-104687 f=p()w[f]=W a=I[c]c=V(420263+-389056)D=a[c]c=818149-818148 F=-930217-(-930472)U=132672-132670 a=D(c,T)c=p()T=818039+-818039 w[c]=a D=w[e]a=D(T,F)T=p()w[T]=a F=207853+-207852 d=718473-718472 D=w[e]Q=w[c]a=D(F,Q)F=p()w[F]=a A=73527-73527 a=w[e]Q=a(d,U)a=-947555+947556 D=Q==a a=V(-535886-(-567120))U=V(626000+-594756)Q=p()w[Q]=D u=I[C]M=w[e]D=V(387883+-356644)S={M(A,N)}D=J[D]C=u(y(S))u=V(-484553-(-515797))o=C..u d=U..o U=V(-766329+797494)D=D(J,a,d)d=p()o=n(6528902-576991,{e,f;l,Z,R,H,Q;d;c;F;T,k})w[d]=D a=I[U]U={a(o)}D={y(U)}U=D D=w[Q]D=D and 565670+13438924 or-236832+3153888 end end else if D<-890455+12130487 then if D<-621690+11419780 then J=922536+19003435339497 D=-945823+14222136 b=V(211247+-180064)G=R(b,J)K=Z[G]k=K else R=w[X[-283752-(-283754)]]D=13400447-(-695577)Z=w[X[543719-543716]]m=R==Z a=m end else a=11128385-(-310255)Z=-487611+10982261 R=V(-280918+312105)m=R^Z D=a-m a=V(-179258+210476)m=D D=a/m a={D}D=I[V(478075-446907)]end end else if D<-804392+12220201 then if D<12310707-994703 then if D<10452159-(-840872)then D=true D=D and-675221+2449619 or 14848081-794127 else D=9829406-299535 R=w[X[401340-401337]]K=-874308-(-874321)Z=42706+-42674 m=R%Z k=940668-940666 i=w[X[289648-289644]]e=w[X[-457959-(-457961)]]J=w[X[193684-193681]]b=J-m J=395323-395291 G=b/J l=K-G x=k^l B=e/x x=513030+-513029 v=i(B)i=4294502039-(-465257)Z=v%i v=944114-944112 i=v^m R=Z/i i=w[X[-487028+487032]]e=R%x x=541607+4294425689 B=e*x e=-1009272+1074808 v=i(B)k=178038+-177782 i=w[X[737193+-737189]]B=i(R)Z=v+B v=-869580+935116 i=Z%v R=nil B=Z-i Z=nil v=B/e e=65050-64794 B=i%e x=i-B e=x/k K=-673100-(-673356)k=-744022+744278 i=nil m=nil x=v%k l=v-x k=l/K v=nil l={B;e,x,k}k=nil B=nil x=nil e=nil w[X[-803851+803852]]=l end else H=D f=w[e]O=not f J=O D=O and 14120448-(-496448)or 684696+1632796 end else if D<11926766-83382 then if D<12093062-507457 then D=7372456-(-233419)f=L(f)Q=L(Q)T=L(T)F=L(F)c=L(c)d=L(d)U=nil else G=V(36152-4978)b=32282806859250-(-17606)D=K k=e(l)K=R(G,b)l=Z[K]K=V(-162187-(-193352))e=l..k l=p()w[l]=e b=z(-231318-(-788153),{l})e=I[K]J={e(b)}e=p()G=J[883653-883651]K=J[403842+-403841]w[e]=G J=not K G=J b=D D=J and 300428+1731270 or 982891+10376221 end else D=w[X[-64258-(-64268)]]R=w[X[779792+-779781]]m[D]=R D=w[X[1023666-1023654]]R={D(m)}a={y(R)}D=I[V(-194270-(-225490))]end end end else if D<-816638+13645335 then if D<12899963-435053 then if D<12136499-(-325212)then if D<13303949-929439 then D=true D=10594104-928804 else D=F Q=16946381886778-(-903577)O=G(f,T)O=V(-282386+313622)G=I[O]F=V(464165-432959)T=R(F,Q)f=Z[T]F=-383696+6418876720765 T=V(-315445-(-346616))O=G(f,x)f=R(T,F)O=Z[f]G=x==O D=G and 7874211-(-375077)or-728773+13388607 end else f=p()i=nil c=V(-719795+750953)Q=V(-311642-(-342819))B=nil K=nil U=V(586694+-555524)e=nil H=p()J={}K=22870072498412-(-544941)w[H]=J b=nil O=g(8649299-(-676451),{H;k;l,v})J=p()C=nil T={}w[J]=O O={}w[f]=O O=I[c]x=nil d=w[f]F={[Q]=d,[U]=C}c=O(T,F)v=L(v)Z=c O=Y(859362+3168892,{f;H;G,k;l,J})x=V(168403+-137189)k=L(k)l=L(l)R=O J=L(J)H=L(H)f=L(f)H=V(-484384+515548)G=L(G)v=V(487346-456152)i=I[v]v=V(-511794+542978)k=27688480413832-976427 e=R(x,k)x=V(-83373-(-114558))l=V(205964+-174724)B=Z[e]k=926114+8332478639494 v=i[v]v=v(i,B)b=V(1076063-1044831)e=R(x,k)B=Z[e]e=V(-364141-(-395335))i=v[B]B=I[e]e=V(244569-213385)e=B[e]k=R(l,K)x=Z[k]e=e(B,x)B=p()w[B]=e x=V(-695826-(-727012))l=D O=33807882916772-(-879067)e=I[x]G=I[b]b=G()J=R(H,O)G=Z[J]K=b[G]k=K D=K and 13990859-714546 or 9932346-(-635485)end else if D<13131835-464168 then if D<11709509-(-933716)then R=V(84251-53050)a=-993854+2600975 Z=8975990-(-675615)m=R^Z D=a-m a=V(-327333+358568)m=D D=a/m a={D}D=I[V(79297+-48067)]else F=15211898723682-(-933449)T=V(-429198-(-460374))f=R(T,F)O=Z[f]G=x==O D=G and 484070+269210 or 5032358-(-540446)end else D=I[V(977238-945997)]a={R}end end else if D<12827455-(-241854)then if D<647365+12281377 then if D<-856822+13698625 then H=H+f T=not c J=H<=O J=T and J T=H>=O T=c and T J=T or J T=7643075-(-638757)D=J and T J=884663+12182931 D=D or J else C=846797-846796 u=U[C]o=u D=14797061-721381 end else D=8494998-256454 H=#b O=-907563-(-907563)J=H==O end else if D<493198+12771624 then if D<-352767+13454593 then v=nil K=nil k=nil b=L(b)R=nil B=L(B)J=nil x=nil l=L(l)i=nil Z=nil H=nil e=L(e)a={}D=I[V(-634582+665790)]else w[R]=a D=10732457-(-843011)end else x=e(k)f=6913199622543-(-869124)O=V(-886322-(-917504))k=V(702207-671021)J=V(-11368-(-42600))D=l e=I[k]K=D b=I[J]J=b()H=R(O,f)b=Z[H]G=J[b]D=G and-653686+12411574 or-640049+15674858 l=G end end end end else if D<14539077-(-193011)then if D<722696+13358212 then if D<-33245+13942518 then if D<13597479-(-162664)then if D<13912421-589773 then a=k D=l D=k and 4629490-(-600757)or 2058198-(-226815)else m=q e=V(-518343-(-549508))R=p()D=true Z=V(726332+-695173)i=p()w[R]=D a=I[Z]Z=V(-82953-(-114196))D=a[Z]v=p()Z=p()w[Z]=D D=n(9596592-(-420605),{})x=n(736313+1594255,{v})w[i]=D D=false w[v]=D B=I[e]e=B(x)D=e and 441146+7758866 or-596346+8999407 a=e end else D=true D=D and-786832+15235794 or 34353+2954847 end else if D<14015736-(-39069)then if D<-707877+14737721 then o=w[R]a=o D=o and 6264339-891810 or-380855+13609878 else a={}D=I[V(1019700-988481)]end else w[R]=o S=w[F]A=986364-986363 M=S+A C=U[M]u=K+C C=4380-4124 D=u%C K=D M=w[T]C=G+M M=-528784+529040 D=483843+11091625 u=C%M G=u end end else if D<15501827-947072 then if D<-1017543+15486103 then if D<559312+13768818 then D=a and 5590795-775755 or 801900-(-80485)else a=V(-453777+484976)m=V(-716666-(-747856))D=I[a]a=I[m]m=V(139765-108575)I[m]=D D=13596948-(-246450)m=V(-17841+49040)I[m]=a m=w[X[369795+-369794]]R=m()end else d=-660930+32626961092891 Q=V(754803-723561)f=w[b]F=R(Q,d)T=Z[F]O=f[T]G=not O D=G and-858968+15974476 or 7075971-675596 end else if D<803069+13838299 then if D<318376+14275387 then R=L(R)R=nil l=L(l)D=-128294+12967401 x=nil i=L(i)x=V(-224268+255457)k=L(k)H=L(H)B=nil Z=L(Z)G=nil b=nil B=V(18135+13092)v=L(v)J=nil Z=nil K=nil e=L(e)v=I[B]e=V(99824+-68597)B=V(-442910-(-474122))l=p()i=v[B]K={}b={}v=p()w[v]=i B=I[e]k=V(122115+-90956)e=V(13385+17822)i=B[e]e=I[x]x=V(-246508+277734)B=e[x]x=I[k]H=-427882-(-428138)k=V(828569+-797340)e=x[k]J=-1034369+1034370 x=944718+-944718 O=H H=569631-569630 G=p()k=p()w[k]=x x=467155+-467153 w[l]=x x={}w[G]=K K=-211204-(-211204)f=H H=-541200-(-541200)c=f<H H=J-f else G=J D=H D=433472+1598226 end else w[R]=W D=w[R]D=D and-808943+6496712 or 12319514-59927 end end end else if D<-472672+16158547 then if D<-989766+16095030 then if D<-684989+15715168 then if D<-778026+15701993 then f=V(551734+-520544)s=V(-733091-(-764277))D=I[s]O=I[f]s=D(O)D=V(510207+-479008)I[D]=s D=16382770-764974 else T=w[b]D=200258+6562874 f=not T G=f end else J=V(902218-871008)H=-738118+22331528195044 b=R(J,H)G=Z[b]D=11681714-(-76174)l=G end else if D<655288+14755925 then if D<192905+14963375 then F=V(689898+-658696)Q=32100510587456-106461 T=R(F,Q)M=V(-24326+55548)F=D f=Z[T]d=w[b]S=585686+3501259478664 C=R(M,S)U=Z[C]Q=d[U]D=Q and-52094+3195378 or 850758+9572135 T=Q else a=o D=u D=13147845-(-81178)end else D=-403439+11693159 end end else if D<16758980-280881 then if D<850983+15165564 then if D<16613447-712271 then b=p()O=z(3991173-(-387132),{B;e;b})G=nil w[b]=G J=V(295257+-264092)G=I[J]f={G(O)}H=f[534312+-534310]J=f[-875819-(-875820)]O=D f=not J G=f D=f and 7256352-493220 or-315810+15292590 else R=w[X[-499777+499780]]Z=-21436-(-21437)m=R~=Z D=m and 11107652-(-196618)or-770138+1619192 end else f=-636620+23088602226891 b=V(-36502+67727)G=I[b]O=V(524642+-493445)H=R(O,f)J=Z[H]O=-240626+2456601489513 b=G(J)H=V(220933-189729)D=I[V(814296+-783134)]J=R(H,O)b=Z[J]G=V(999102+-967885)G=i[G]a={}G=G(i,b)end else if D<16464587-(-222460)then if D<-146834+16820771 then x=l s=V(-440811+471970)j=I[s]s=V(-162269+193506)W=j[s]j=W(m,x)W=w[X[919141-919135]]s=W()H=j+s J=H+B x=nil H=-221200-(-221456)b=J%H s=263221+-263220 B=b H=Z[R]j=B+s W=i[j]D=4630760-437160 J=H..W Z[R]=J else O=V(-974319-(-1005518))D=I[O]O=V(-675492-(-706682))I[O]=D D=15444683-(-173113)end else j=w[R]W=j D=j and-610234+5579748 or 298299+14343987 end end end end end end end D=#P return y(a)end,function(I,V)local y=Z(V)local q=function(q,X,P,h)return D(I,{q,X;P;h},V,y)end return q end return(v(-631844+13993498,{}))(y(a))end)(getfenv and getfenv()or _ENV,unpack or table[V(633144+-601944)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+-- // 🚀 Chạy script tương ứng
+if scriptName == "MaruHub" then
+    getgenv().NScript = "MaruHub"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+
+elseif scriptName == "KaitunMaruDefault" then
+    getgenv().NScript = "MaruHub"
+    getgenv().Script_Mode = "Kaitun_Script"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+
+elseif scriptName == "MaruKaitunFisch" then
+    getgenv().NScript = "MaruHub"
+    local Second_Sea = game.PlaceId == 72907489978215
+    local Second_Sea_Loc = CFrame.new(1532.36096, 83.9225464, 2335.48999, -0.407974303, 3.71246642e-08, 0.912993431,
+        5.38818279e-09, 1, -3.825485e-08, -0.912993431, -1.06876197e-08, -0.407974303)
+    local First_Sea_Loc = CFrame.new(-13887.3965, -11048.6885, 350.285706, 0.948456287, 1.08180259e-07, 0.316907942,
+        -1.06977055e-07, 1, -2.11960565e-08, -0.316907942, -1.37983438e-08, 0.948456287)
+
+    _G.Settings = _G.Settings or {
+        ["DefaultPosition"] = (Second_Sea and Second_Sea_Loc) or First_Sea_Loc,
+        ["AfkCheckTime"] = 30, -- Seconds
+        ["AfkFix"] = "Reset", -- Rejoin, Reset
+        ["EquipRod"] = "Auto", -- Trident Rod, Destiny Rod,... Rod
+        ["InstantFishing"] = true,
+        ["Return to Sea1"] = {
+            ["Obtained All Rods"] = true
+        },
+        ["SellFish"] = {
+            ["SellDelay"] = 120, -- Seconds
+            ["Enable"] = true,
+            ["Method"] = {
+                ["Event"] = true,
+                ["Enchant"] = false,
+                ["Mythical"] = true,
+                ["Legendary"] = true,
+                ["Exotic"] = true -- recommend to enable it
+            }
+        },
+        ['Rod'] = {
+            -- Necessary Rods: Rods that are required or essential for the gameplay
+            Necessary_Rods = {"Steady Rod", -- First Sea Rod
+            "Reinforced Rod", "Depthseeker Rod", "Kraken Rod", "Zeus Rod", "Ethereal Prism Rod", "Free Spirit Rod"},
+
+            -- Custom Rods: Special rods that can be customized after obtained all necessary rods.
+            Custom_Rods = {"Aurora Rod", "Tempest Rod", "Abyssal Specter Rod", "Destiny Rod", "Challenger's Rod",
+                           "Rod Of The Zenith", "Challenger's Rod", "Nocturnal Rod", "Kings Rod", "Trident Rod",
+                           "Poseidon Rod", "Champions Rod", "Volcanic Rod", "Summit Rod", "Training Rod", "Plastic Rod",
+                           "Carbon Rod", "Long Rod", "Lucky Rod", "Fortune Rod", "Rapid Rod", "Magnet Rod",
+                           "Mythical Rod", "Midas Rod", "Scurvy Rod", "Stone Rod", "Phoenix Rod", "Arctic Rod",
+                           "Crystalized Rod", "Ice Warpers Rod", "Avalanche Rod", "Stone Rod", "Wildflower Rod",
+                           "Firefly Rod", "Frog Rod", "Azure Of Lagoon", "Free Spirit Rod", -- need bestinary 70%
+            "Verdant Shear Rod", "Great Dreamer Rod"},
+
+            -- Puzzle Rods: Rods that will be available in the future (currently unavailable)
+            Puzzle_Rods = {
+                -- ["Heaven's Rod"] = 400, -- ( name, required level )
+            }
+        },
+        ["Enchant"] = {
+            ["Enabled"] = true, -- Enable or disable the enchantment system
+            ["Rod"] = { -- Specific enchantments for each rod
+                ["Depthseeker Rod"] = {
+                    LevelFarm = {"Clever"}
+                },
+                ["Zeus Rod"] = {
+                    LevelFarm = {"Clever"}
+                },
+                ["Kraken Rod"] = {
+                    LevelFarm = {"Clever"}
+                },
+                ["Ethereal Prism Rod"] = {
+                    LevelFarm = {"Hasty"},
+                    CashFarm = {"Abyssal"}
+                },
+                ["Free Spirit Rod"] = {
+                    LevelFarm = {"Clever"}
+                }
+            }
+        },
+        ["Totems"] = {
+            ["Enabled"] = true, -- Enable or disable the totem system
+            ["ActivationLevel"] = 300, -- Level required to activate totems
+
+            ["DayTotem"] = "Sundial Totem", -- Totem used during the day
+            ["NightTotem"] = "Aurora Totem", -- Totem used during the night
+
+            ["AutoPurchase"] = true, -- Enable automatic totem purchasing
+            ["PurchaseLimit"] = { -- Maximum allowed purchases per type
+                ["DayTotem"] = 1,
+                ["NightTotem"] = 1
+            }
+        },
+        ['EnabledFishingZones'] = true,
+        ["CastZone"] = {
+            ['OnLevel'] = 300,
+            ['Ignored_Aurora'] = true, -- skip farming level when aurora is active
+            ['Zones'] = {"Forsaken Veil - Scylla", "Lovestorm Eel", "Orcas Pool", "The Kraken Pool",
+                         "Megalodon Default", "The Depths - Serpent", "Great White Shark", "Great Hammerhead Shark",
+                         "Whale Shark", "Animal Pool"}
+        },
+        ["RAM_Config"] = {
+            ['Port'] = 7963,
+            ['Password'] = "",
+            ['Update Interval'] = 5,
+            ['Subfix'] = " - ",
+            ['Rod Displayed'] = 10
+        },
+        ['ShakeMode'] = "Fast", -- Fast, Fix bug
+        ["FpsBoost"] = false,
+        ["Black_Screen"] = true
+    }
+    getgenv().Script_Mode = "Kaitun_Script"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+
+elseif scriptName == "MaruKaitunGrowAGarden" then
+    getgenv().NScript = "MaruHub"
+    _G.Settings = {
+        SelectSeeds = {"Cherry Blossom", "Coconut", "Mint", "Easter Egg", "Lemon", "Succulent", "Raspberry",
+                       "Passionfruit", "Cranberry", "Candy Blossom", "Watermelon", "Red Lollipop", "Pineapple",
+                       "Blood Banana", "Peach", "Candy Sunflower", "Crimson Vine", "Mushroom", "Pear",
+                       "Chocolate Carrot", "Starfruit", "Pumpkin", "Pepper", "Cacao", "Glowshroom", "Eggplant",
+                       "Durian", "Avocado", "Venus Fly Trap", "Lotus", "Banana", "Dragon Fruit", "Cursed Fruit",
+                       "Mango", "Cactus", "Papaya", "Beanstalk", "Grape", "Bamboo", "Soul Fruit", "Carrot",
+                       "Orange Tulip", "Daffodil", "Celestiberry"},
+        StartBuyEggWhen = 150000,
+        SelectEggs = {"Legendary Egg", "Mythical Egg", "Bug Egg"},
+        SelectHoneyStocks = {"Bee Egg"},
+        UpgradePetSlots = 2,
+        RemoveTrashFruits = true
+    }
+    getgenv().Script_Mode = "Kaitun_Script"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+
+elseif scriptName == "MaruKaitunBF" then
+    getgenv().NScript = "MaruHub"
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+    _G.Team = "Pirate" -- Marine / Pirate
+    getgenv().Script_Mode = "Kaitun_Script"
+    _G.MainSettings = {
+        ["EnabledHOP"] = true,
+        ['FPSBOOST'] = true,
+        ["FPSLOCKAMOUNT"] = 60,
+        ['WhiteScreen'] = true,
+        ['CloseUI'] = false,
+        ["NotifycationExPRemove"] = true,
+        ['AFKCheck'] = 150,
+        ["LockFragments"] = 20000,
+        ["LockFruitsRaid"] = {
+            [1] = "Dough-Dough",
+            [2] = "Dragon-Dragon"
+        }
+    }
+    _G.SharkAnchor_Settings = {
+        ["Enabled_Farm"] = true,
+        ['FarmAfterMoney'] = 2500000
+    }
+    _G.Quests_Settings = {
+        ['Rainbow_Haki'] = true,
+        ["MusketeerHat"] = true,
+        ["PullLever"] = true,
+        ['DoughQuests_Mirror'] = {
+            ['Enabled'] = true,
+            ['UseFruits'] = true
+        }
+    }
+    _G.Races_Settings = {
+        ['Race'] = {
+            ['EnabledEvo'] = true,
+            ["v2"] = true,
+            ["v3"] = true,
+            ["Races_Lock"] = {
+                ["Races"] = {
+                    ["Mink"] = true,
+                    ["Human"] = true,
+                    ["Fishman"] = true
+                },
+                ["RerollsWhenFragments"] = 20000
+            }
+        }
+    }
+    _G.Fruits_Settings = {
+        ['Main_Fruits'] = {'Dough-Dough'},
+        ['Select_Fruits'] = {"Flame-Flame", "Ice-Ice", "Quake-Quake", "Light-Light", "Dark-Dark", "Spider-Spider",
+                             "Rumble-Rumble", "Magma-Magma", "Buddha-Buddha"}
+    }
+    _G.Settings_Melee = {
+        ['Superhuman'] = true,
+        ['DeathStep'] = true,
+        ['SharkmanKarate'] = true,
+        ['ElectricClaw'] = true,
+        ['DragonTalon'] = true,
+        ['Godhuman'] = true
+    }
+    _G.SwordSettings = {
+        ['Saber'] = true,
+        ["Pole"] = false,
+        ['MidnightBlade'] = false,
+        ['Shisui'] = true,
+        ['Saddi'] = true,
+        ['Wando'] = false,
+        ['Yama'] = true,
+        ['Rengoku'] = false,
+        ['Canvander'] = false,
+        ['BuddySword'] = false,
+        ['TwinHooks'] = false,
+        ['HallowScryte'] = false,
+        ['TrueTripleKatana'] = false,
+        ['CursedDualKatana'] = true
+    }
+    _G.GunSettings = {
+        ['Kabucha'] = false,
+        ['SerpentBow'] = false,
+        ['SoulGuitar'] = false
+    }
+    _G.FarmMastery_Settings = {
+        ['Melee'] = true,
+        ['Sword'] = true,
+        ['DevilFruits'] = true,
+        ['Select_Swords'] = {
+            ["AutoSettings"] = true,
+            ["ManualSettings"] = {"Saber", "Buddy Sword"}
+        }
+    }
+    _G.Hop_Settings = {
+        ["Find Tushita"] = false
+    }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+    -- // HoHoHub
+elseif scriptName == "HohoHub" then
+    getgenv().NScript = "HohoHub"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+elseif scriptName == "BananaHub" then
+    getgenv().NScript = "BananaHubMain"
+    getgenv().NewUI = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+elseif scriptName == "BananaKaitun" then
+    getgenv().NScript = "BananaHubKaitunBF"
+        getgenv().SettingFarm ={
+            ["Hide UI"] = false,
+            ["Reset Teleport"] = {
+                ["Enabled"] = false,
+                ["Delay Reset"] = 3,
+                ["Item Dont Reset"] = {
+                    ["Fruit"] = {
+                        ["Enabled"] = true,
+                        ["All Fruit"] = true, 
+                        ["Select Fruit"] = {
+                            ["Enabled"] = false,
+                            ["Fruit"] = {},
+                        },
+                    },
+                },
+            },
+            ["White Screen"] = false,
+            ["Lock Fps"] = {
+                ["Enabled"] = false,
+                ["FPS"] = 20,
+            },
+            ["Get Items"] = {
+                ["Saber"] = true,
+                ["Godhuman"] =  true,
+                ["Skull Guitar"] = true,
+                ["Mirror Fractal"] = true,
+                ["Cursed Dual Katana"] = false,
+                ["Upgrade Race V2-V3"] = true,
+                ["Auto Pull Lever"] = true,
+                ["Shark Anchor"] = true, --- if have cdk,sg,godhuman
+            },
+            ["Get Rare Items"] = {
+                ["Rengoku"] = false,
+                ["Dragon Trident"] = false, 
+                ["Pole (1st Form)"] = false,
+                ["Gravity Blade"]  = false,
+            },
+            ["Farm Fragments"] = {
+                ["Enabled"]  = false,
+                ["Fragment"] = 50000,
+            },
+            ["Auto Chat"] = {
+                ["Enabled"] = false,
+                ["Text"] = "",
+            },
+            ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
+            ["Select Hop"] = { -- 70% will have it
+                ["Hop Server If Have Player Near"] = false, 
+                ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+                ["Hop Find Dough King Get Mirror Fractal"] = false,
+                ["Hop Find Raids Castle [CDK]"] = true,
+                ["Hop Find Cake Queen [CDK]"] = true,
+                ["Hop Find Soul Reaper [CDK]"] = true,
+                ["Hop Find Darkbeard [SG]"] = true,
+                ["Hop Find Mirage [ Pull Lever ]"] = false,
+            },
+            ["Farm Mastery"] = {
+                ["Melee"] = false,
+                ["Sword"] = false,
+            },
+            ["Buy Haki"] = {
+                ["Enhancement"] = false,
+                ["Skyjump"] = true,
+                ["Flash Step"] = true,
+                ["Observation"] = true,
+            },
+            ["Sniper Fruit Shop"] = {
+                ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
+                ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
+            },
+            ["Lock Fruit"] = {},
+            ["Webhook"] = {
+                ["Enabled"] = false,
+                ["WebhookUrl"] = "",
+            }
+        }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+else
+    LocalPlayer:Kick("🚫 Không xác định script cần chạy. (scriptName = " .. tostring(scriptName) .. ")")
+    return
+end
