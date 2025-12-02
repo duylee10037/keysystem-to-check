@@ -1,14 +1,16 @@
--- KHANHDUY HUB KEY SYSTEM – BẢN CHUẨN NHẤT, CHẠY DÙ BACKEND CÓ "message" HAY KHÔNG
 local Players     = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local Player      = Players.LocalPlayer
 
 local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- ← link thật
 
-local Key = tostring(getgenv().Key or ""):gsub("%s", "") -- xóa hết space
+local RawKey = tostring(getgenv().Key or ""):gsub("%s", "") -- key gốc mày dán
 
-if not Key:match("^KhanhDuy_[A-Z0-9]{13}$") then
-    return Player:Kick("Key sai định dạng!")
+-- FIX CUỐI: UrlEncode key trước khi gửi (đảm bảo _ không bị %5F)
+local Key = HttpService:UrlEncode(RawKey)
+
+if not RawKey:match("^KhanhDuy_[A-Z0-9]{13}$") or #RawKey ~= 22 then
+    return Player:Kick("\nKey sai định dạng!\nPhải đúng 22 ký tự: KhanhDuy_ + 13 chữ/số\nVí dụ: KhanhDuy_A1B2C3D4E5F6G7H")
 end
 
 local success, response = pcall(function()
@@ -22,24 +24,14 @@ if not success then
 end
 
 if not success then
-    return Player:Kick("Lỗi kết nối server key!")
+    return Player:Kick("Lỗi mạng bro")
 end
 
 local data = HttpService:JSONDecode(response)
 
--- FIX CHÍNH Ở ĐÂY: chỉ cần data.valid (dù là true, "true", 1 gì cũng đéo quan tâm)
 if data.valid then
-    warn("KEY HỢP LỆ – Welcome KhanhDuy Hub!")
-    warn("Hết hạn: " .. (data.expiry or "Vĩnh viễn"))
-
-    local scriptName = tostring(getgenv().NScript or "MaruHub")
-    if scriptName == "MaruHub" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
-    elseif scriptName == "BananaHub" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/banana/main/loader.lua"))() -- thay link
-    else
-        Player:Kick("Script không tồn tại")
-    end
+    warn("KEY HỢP LỆ – Welcome back KhanhDuy Hub!")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
 else
-    Player:Kick("Key đã bị revoke hoặc hết hạn!")
+    Player:Kick("Key chết hoặc bị revoke rồi bro")
 end
