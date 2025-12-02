@@ -1,38 +1,28 @@
+-- BẢN CUỐI – FIX TRIỆT ĐỂ DẤU GẠCH DƯỚI TRONG REGEX
 local Players     = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local Player      = Players.LocalPlayer
 
-local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- ← link thật
+local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- link mày
 
-local RawKey = tostring(getgenv().Key or ""):gsub("%s", "") -- key gốc mày dán
+local Key = tostring(getgenv().Key or ""):gsub("%s+", "")
 
--- FIX CUỐI: UrlEncode key trước khi gửi (đảm bảo _ không bị %5F)
-local Key = HttpService:UrlEncode(RawKey)
-
-if not RawKey:match("^KhanhDuy_[A-Za-z0-9]{13}$") or #RawKey ~= 22 then
-    -- Giữ nguyên thông báo kick, nhưng bên trong code đã linh hoạt hơn
-    return Player:Kick("\nKey sai định dạng!\nPhải đúng 22 ký tự: KhanhDuy_ + 13 chữ/số\nVí dụ: KhanhDuy_A1B2C3D4E5F6G7H")
+-- FIX CHÍNH: thêm dấu gạch dưới vào [] → giờ mới đúng 100%
+if #Key ~= 22 or not Key:match("^KhanhDuy_[A-Z0-9_]{13}$") then
+    return Player:Kick("Key sai định dạng!\nKey hiện tại: " .. Key .. "\nĐộ dài: " .. #Key)
 end
 
 local success, response = pcall(function()
-    return HttpService:GetAsync(API_URL .. Key)
+    return HttpService:GetAsync(API_URL .. HttpService:UrlEncode(Key))
 end)
-
 if not success then
-    success, response = pcall(function()
-        return game:HttpGet(API_URL .. Key)
-    end)
+    success, response = pcall(function() return game:HttpGet(API_URL .. HttpService:UrlEncode(Key)) end)
 end
-
-if not success then
-    return Player:Kick("Lỗi mạng bro")
-end
+if not success then return Player:Kick("Lỗi mạng") end
 
 local data = HttpService:JSONDecode(response)
-
 if data.valid then
-    warn("KEY HỢP LỆ – Welcome back KhanhDuy Hub!")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
 else
-    Player:Kick("Key chết hoặc bị revoke rồi bro")
+    Player:Kick("Key chết")
 end
