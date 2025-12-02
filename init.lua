@@ -7,10 +7,7 @@ local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- link mày
 
 local Key = tostring(getgenv().Key or ""):gsub("%s+", "")
 
--- FIX CHÍNH: thêm dấu gạch dưới vào [] → giờ mới đúng 100%
-if #Key ~= 22 or not Key:match("^KhanhDuy_[A-Z0-9_]{13}$") then
-    return Player:Kick("Key sai định dạng!\nKey hiện tại: " .. Key .. "\nĐộ dài: " .. #Key)
-end
+
 
 local success, response = pcall(function()
     return HttpService:GetAsync(API_URL .. HttpService:UrlEncode(Key))
