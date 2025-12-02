@@ -1,15 +1,14 @@
--- KHANHDUY HUB KEY SYSTEM – FIX CHUẨN 13 KÝ TỰ (TỔNG 22 KÝ TỰ)
+-- KHANHDUY HUB KEY SYSTEM – BẢN CHUẨN NHẤT, CHẠY DÙ BACKEND CÓ "message" HAY KHÔNG
 local Players     = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local Player      = Players.LocalPlayer
 
 local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- ← link thật
 
-local Key = tostring(getgenv().Key or ""):gsub("^%s+", ""):gsub("%s+$", "") -- trim space đầu cuối
+local Key = tostring(getgenv().Key or ""):gsub("%s", "") -- xóa hết space
 
--- FIX CHUẨN: KhanhDuy_ + đúng 13 ký tự → tổng 22 ký tự
-if not Key:match("^KhanhDuy_[A-Z0-9]{13}$") or #Key ~= 22 then
-    return Player:Kick("\nKey sai định dạng!\nPhải là: KhanhDuy_ + đúng 13 ký tự in hoa & số\nVí dụ: KhanhDuy_A1B2C3D4E5F6G")
+if not Key:match("^KhanhDuy_[A-Z0-9]{13}$") then
+    return Player:Kick("Key sai định dạng!")
 end
 
 local success, response = pcall(function()
@@ -28,14 +27,16 @@ end
 
 local data = HttpService:JSONDecode(response)
 
+-- FIX CHÍNH Ở ĐÂY: chỉ cần data.valid (dù là true, "true", 1 gì cũng đéo quan tâm)
 if data.valid then
-    warn("KEY HỢP LỆ – Welcome back bro!")
-    local scriptName = tostring(getgenv().NScript or "MaruHub")
+    warn("KEY HỢP LỆ – Welcome KhanhDuy Hub!")
+    warn("Hết hạn: " .. (data.expiry or "Vĩnh viễn"))
 
+    local scriptName = tostring(getgenv().NScript or "MaruHub")
     if scriptName == "MaruHub" then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
     elseif scriptName == "BananaHub" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/banana/main/loader.lua"))() -- thay link thật
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/banana/main/loader.lua"))() -- thay link
     else
         Player:Kick("Script không tồn tại")
     end
