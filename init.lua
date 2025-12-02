@@ -6,7 +6,7 @@ local HttpService  = game:GetService("HttpService")
 local Player       = Players.LocalPlayer
 
 -- THAY DÒNG DUY NHẤT NÀY SAU KHI UP BACKEND
-local API_URL = "https://khanhduyhub.000webhostapp.com/api.php?key=" -- ← sửa thành link của mày
+local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- ← sửa thành link của mày
 
 local Key = tostring(getgenv().Key or "")
 if not Key or Key == "" or not Key:match("^KhanhDuy_[A-Z0-9]{13}$") then
