@@ -9,7 +9,8 @@ local RawKey = tostring(getgenv().Key or ""):gsub("%s", "") -- key gốc mày d�
 -- FIX CUỐI: UrlEncode key trước khi gửi (đảm bảo _ không bị %5F)
 local Key = HttpService:UrlEncode(RawKey)
 
-if not RawKey:match("^KhanhDuy_[A-Z0-9]{13}$") or #RawKey ~= 22 then
+if not RawKey:match("^KhanhDuy_[A-Za-z0-9]{13}$") or #RawKey ~= 22 then
+    -- Giữ nguyên thông báo kick, nhưng bên trong code đã linh hoạt hơn
     return Player:Kick("\nKey sai định dạng!\nPhải đúng 22 ký tự: KhanhDuy_ + 13 chữ/số\nVí dụ: KhanhDuy_A1B2C3D4E5F6G7H")
 end
 
