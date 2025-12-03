@@ -3,7 +3,7 @@ local Players     = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local Player      = Players.LocalPlayer
 
-local API_URL = "https://haingonyeuem.x10.network/api.php?key=" -- link mày
+local API_URL = "https://haingondainhan.x10.network/api.php?key=" -- link mày
 
 local Key = tostring(getgenv().Key or ""):gsub("%s+", "")
 
