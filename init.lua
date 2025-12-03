@@ -19,7 +19,15 @@ if not success then return Player:Kick("Lỗi mạng") end
 
 local data = HttpService:JSONDecode(response)
 if data.valid then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+    local scriptName = tostring(getgenv().NScript or "MaruHub")  -- Thêm phần chọn script ở đây
+
+    if scriptName == "MaruHub" then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Wraith1vs11/Rejoin/refs/heads/main/UGPhone's%20Scripts"))()
+    elseif scriptName == "BananaHub" then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/banana-hub/main/loader.lua"))()  -- thay link BananaHub thật của mày
+    else
+        Player:Kick("Script không tồn tại: " .. scriptName)
+    end
 else
-    Player:Kick("Key chết")
+    Player:Kick("Key hết hạn hoặc bị revoke!")
 end
